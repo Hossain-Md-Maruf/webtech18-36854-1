@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+</head>
+<body style="background-color:#E6F2FF;opacity: .9;">
+    
+   <p style="color: red;display: inline;">*</p><p style="display: inline;"> - Denotes Requred Information</p> <br>
+   <h5 style="display: inline;">> 1 Donation </h5>&nbsp;&nbsp;&nbsp;
+   <p style="display:inline">  >2 Confirmation</p>&nbsp;&nbsp;&nbsp;
+   <p style="display:inline">> Thank You</p>
+   <h2 style="color: red;">Donor Information</h1>
+    
+    <div style="margin-left: 9%;">
+        &nbsp;<h4 style="display: inline;">First Name</h4> <p style="color: red;display: inline;">*</p>
+        <input type="text" id="fastname" name="fastname" size="30" required><br><br>
+        &nbsp;<h4 style="display: inline;">Last Name</h4> <p style="color: red;display: inline;">*</p>
+        <input type="text" id="lastname" name="lastfname" size="30"required><br><br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<h4 style="display: inline;">Company</h4> <p style="color: red;display: inline;"></p>
+        <input type="text" id="company" name="company"size="30"><br><br>
+        &nbsp;&nbsp;&nbsp;<h4 style="display: inline;">Address 1</h4><p style="color: red;display: inline;">*</p>
+        <input type="text" id="address1" name="address1"size="30" required><br><br>
+        &nbsp;&nbsp;&nbsp;<h4 style="display: inline;">Address 2</h4><p style="color: red;display: inline;">*</p>
+        <input type="text" id="address2" name="address2"size="30" required><br><br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<h4 style="display: inline;">City</h4> <p style="color: red;display: inline;">*</p>
+        <input type="text" id="city" name="city"size="30" required><br><br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<h4 style="display: inline;">State</h4><p style="color: red;display: inline;">*</p>
+        <select style="border-radius: 25%;">
+            <option value="">Select a State</option>
+            <option value="Dh">Dhaka</option>
+            <option value="Raj">Rajshahi</option>
+            <option value="Sy">shylet</option>
+            <option value="Ran">Rangpur</option>
+            <option value="Co">Comilla</option>
+        </select><br><br>
+        &nbsp;&nbsp;&nbsp;<h4 style="display: inline;">Zip Code</h4><p style="color: red;display: inline;">*</p>
+        <input type="text" id="zip" name="zip"size="30" required><br><br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<h4 style="display: inline;">Country</h4><p style="color: red;display: inline;">*</p>
+        <select style="border-radius: 25%;">
+            <option value="">Select a Country</option>
+            <option value="Ban">Bangladesh</option>
+            <option value="Jap">Japan</option>
+            <option value="Lon">London</option>
+            <option value="Usa">USA</option>
+            
+        </select><br><br>	
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <h4 style="display: inline;">Phone</h4><p style="color: red;display: inline;">*</p>
+        <input type="text" id="phone" name="phone" size="30"required><br><br>		
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<h4 style="display: inline;">Fax</h4><p style="color: red;display: inline;"></p>
+        <input type="text" id="fax" name="fax"size="30"><br><br>		
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<h4 style="display: inline;">Email</h4><p style="color: red;display: inline;">*</p>
+        <input type="text" id="email" name="email" size="30"required><br><br>
+       
+        	
+        
+  
+
+
+    </div>
+    <div style="margin-left:6.5%;">
+        <h4 style="display: inline;">Donation Amount</h4> <p style="color: red; display: inline;">*</p> 
+        
+        <input type="radio" id="amount" name="amount" value="none">
+      None<p style="display: inline;display: inline;"></p>
+      <input type="radio" id="amount1" name="amount" value="$50">
+      $50<p style="display: inline;"></p>
+     <input type="radio" id="amount2" name="amount" value="$75">
+     $75<p style="display: inline;"></p>
+     <input type="radio" id="amount3" name="amount" value="$100">
+     $100<p style="display: inline;"></p>
+     <input type="radio" id="amount4" name="amount" value="$250">
+     $250<p style="display: inline;"></p>
+    <input type="radio" id="other" name="amount" value="other">
+    Other<p style="display: inline;"></p>
+    <p style="margin-left: -3.8%;margin-top: -.3%;">(Check a button or type in your</p>
+    <p style="margin-left: 3.5%;margin-top: -1%; display: inline;"> amount)</p>
+    <h4 style="display: inline;">Other Amount $</h4>
+    <input type="text" id="otheramount" name="otheramount"><br><br>
+    
+    
+    </div>
+    <div style="display: inline;">
+        
+    
+    </div>
+    <div style="margin-left:6.5%;">
+        <h4 style="display: inline;">Recurring Donation</h4>
+        <input type="checkbox" id="donation" name="donation" value="recurring">
+        <p style="display: inline;">I am interested in giving on a regular basis.</p>
+        <p style="margin-left:1.4%;margin-top: -.1%;">(Check if yes)</p>
+        
+
+    </div>
+    <div style="display: flex;margin-right: 5%;" >
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<h4 style="display: inline;">Monthly Credit Card $</h4>
+        <input type="text" id="card" name="card" size="8"style="height:12px;margin-top:1%;margin-left:2%"><br><br>
+        <p style="margin-left: 1%;display: inline; ">For </p> 
+        <input type="text" id="months" name="months" size="6"style="height:12px;margin-top:1%;margin-left:1%"><br><br>
+        <p style="display: inline;margin-left: 1%;">Months</p>
+    </div>
+    <div >
+        <h2 style="color: red;">Honorarium and Memorial Donation Information</h2>
+        <h4 style="display:inline">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I would like to make this</h4>
+        <input type="radio" id="honor" name="honor" value="honor">
+            In Memory of 
+        
+          <div style="display: flex;">
+            <h4 style="margin-left: 8.5%;margin-top: -.3%;">donation</h4>
+            
+            &nbsp; &nbsp; <input type="radio" id="memory" name="honor" value="memory">
+            To Honor 
+          </div>
+        
+    </div>
+    <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<h4 style="display: inline;">Name</h4>
+      <input type="text" id="name" name="name" size="30"><br><br> 
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<h4 style="display: inline;">Acknowledge Donation to</h4>
+      <input type="text" id="adonation" name="adonation" size="30"><br><br> 
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;<h4 style="display: inline;">Address</h4><p style="color: red;display: inline;"></p>
+        <input type="text" id="address2" name="address2"size="30"><br><br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<h4 style="display: inline;">City</h4> <p style="color: red;display: inline;"></p>
+        <input type="text" id="city" name="city"size="30"><br><br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;;&nbsp;<h4 style="display: inline;">State</h4><p style="color: red;display: inline;"></p>
+        <select>
+            <option value="">Select a State</option>
+            <option value="Dh">Dhaka</option>
+            <option value="Raj">Rajshahi</option>
+            <option value="Sy">shylet</option>
+            <option value="Ran">Rangpur</option>
+            <option value="Co">Comilla</option>
+        </select><br><br> 
+    </div>
+    
+    <div>
+        <h2 style="color:red;">Additional Information</h2>
+        <p style="margin-top: -1%;">Please enter your name, company or organization as you would like it to appear in our publications:</p>
+        <h4 style="margin-left: 9.5%;display: inline;">Name</h4>
+        <input type="text" id="aname" name="aname" size="30"><br><br>
+        <input type="checkbox" id="aditionalcheck" name="aditionalcheck" value="aditionalcheck"> 
+        <p style="display: inline;">I would like my gift to remain anonymous</p>
+       <div>
+        <input type="checkbox" id="aditionalcheck1" name="aditionalcheck1" value="aditionalcheck1">
+        <p style="display: inline;">My employer offers a matching gift program. I will mail the matching gift form.</p>
+       
+       </div>
+       <div>
+        <input type="checkbox" id="aditionalcheck2" name="aditionalcheck2" value="aditionalcheck2">
+        <p style="display: inline;">Please save the cost of acknowledging this gift by not mailing a thank you letter.</p>
+       </div>
+    </div>
+    <div>
+        <h4 style="margin-left: 7%; ">Comments</h4>
+        <p style="margin-top: -1%;font-size: small;margin-left: .9%;">(Please type any question or feedback</p>
+        <p style="margin-left: 9.6%;margin-top: -1%;font-size: small;">here)</p>
+        <textarea name="textarea" id="textarea" cols="51" rows="5" style="margin-top: -5%;margin-left: 11.7%;"></textarea>
+        <h4 style="margin-left: 2%;">How may we contact you?</h4>
+        <div style="margin-left: 11.6%;margin-top: -2%;">
+            <input type="checkbox" id="E-mail" name="E-mail" value="E-mail">
+            <p style="display: inline;">E-mail</p>
+            <div>
+                <input type="checkbox" id="Postal Mail" name="Postal Mail" value="Postal Mail">
+            <p style="display: inline;">Postal Mail</p>
+            <div>
+                <input type="checkbox" id="Telephone" name="Telephone" value="Telephone">
+            <p style="display: inline;">Telephone</p>
+            </div>
+            <div>
+                <input type="checkbox" id="Fax" name="Fax" value="Fax">
+                <p style="display: inline;">Fax</p> 
+            </div>
+            
+            
+            </div>
+        </div>
+    </div>
+    <div>
+        <p style="color:#D3D3D3;margin-top: -.2%;">I would like to receive newsletters and information about special events by:</p>
+        
+    </div>
+    <div style="margin-left: 11.6%;margin-top: -1%;">
+        <input type="checkbox" id="E-mail1" name="E-mail1" value="E-mail1">
+            <p style="display: inline;">E-mail</p>
+            <div>
+                <input type="checkbox" id="Postal Mail" name="Postal Mail" value="Postal Mail">
+            <p style="display: inline;">Postal Mail</p>
+            </div>
+    </div>
+    <div>
+        <input type="checkbox" id="volunteering" name="volunteering " value="volunteering">
+            <p style="display: inline;">I would like information about volunteering with the
+            <span style="display: inline;margin-top: -.2%;background-color: #474747;color: #474747;">hello this is block</span></p>
+            <div style="height:20px;width:1500px;background-color: white;"></div>
+    </div>
+    <div style="padding:5px;margin-left:9%">
+        <button type="button"style="border-radius: 35%;">Reset</button>
+        <button type="button"style="border-radius: 35%;">Continue</button>
+        
+    </div>
+    <div style="padding: 8px;">
+        <i class="fa fa-lock" style="font-size:36px; color: yellow;"></i>
+        <p style="display: inline;margin-top: -50%;">Donate online with confidence. You are on a secure server.</p>
+       
+    </div>
+    <div>
+        <p style="display: inline;">If you have any problems or question, please contact </p>
+        <p style="color:#D3D3D3;display: inline;">support.</p>
+    </div>
+
+    
+</body>
+</html>
